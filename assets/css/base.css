@@ -1,0 +1,17 @@
+.container {
+    
+}
+.cartao{
+    width: 340px;
+    height: 200px;
+}
+.destaque__titulo{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 10rem;
+}
+.destaque__descricao {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 240px;
+}

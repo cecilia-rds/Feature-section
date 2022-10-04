@@ -1,0 +1,6 @@
+.supervisor{
+    background-image: url(../images/icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-top: 3px solid rgb(51, 190, 214);
+}

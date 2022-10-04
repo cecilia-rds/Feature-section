@@ -1,0 +1,11 @@
+.principal {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+.principal__descricao {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 500px;
+}

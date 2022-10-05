@@ -2,10 +2,28 @@
     text-align: center;
     margin: 0 auto;
     padding-top: 4rem;
+
+}
+.principal__titulo {
+    padding-bottom: 2rem;
 }
 .principal__descricao {
-    margin: 0 auto;
+    align-items: center;
     margin-bottom: 3rem;
-    text-align: center;
+    padding-bottom: 2rem;
     width: 500px;
+}
+
+@media screen and (max-width: 375px) { 
+    .principal {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .principal__descricao {
+
+        width: 310px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
 }

@@ -1,15 +1,25 @@
+body {
+    font-family: 'Poppins';
+    font-size: 15px;
+}
 .principal {
     text-align: center;
     margin: 0 auto;
     padding-top: 4rem;
-
+    font-size: 20px;
 }
 .principal__titulo {
     padding-bottom: 2rem;
+    font-weight: 400;
+    font-size: 25px;
+}
+.principal__destaque{
+    font-weight: 600;
 }
 .principal__descricao {
-    align-items: center;
-    margin-bottom: 3rem;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 200;
     padding-bottom: 2rem;
     width: 500px;
 }
@@ -20,7 +30,6 @@
         margin: 0 auto;
     }
     .principal__descricao {
-
         width: 310px;
         text-align: center;
         margin: 0 auto;

@@ -1,16 +1,35 @@
-.container {
-    
-}
 .cartao {
     width: 340px;
     height: 250px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .destaque__titulo{
+    font-size: 19px;
+    font-weight: bold;
     margin-left: 1rem;
     margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .destaque__descricao {
+    font-weight: 200;
     padding-left: 1rem;
     padding-right: 1rem;
     width: 240px;
+}
+
+
+@media screen and (max-width: 375px) { 
+    .cartoes {
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+    .principal__descricao {
+        width: 310px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
 }

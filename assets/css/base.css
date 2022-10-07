@@ -1,8 +1,13 @@
+body {
+    background-color: hsl(0, 8%, 95%);
+}
 .cartao {
     width: 340px;
     height: 250px;
     margin-left: 2rem;
     margin-right: 2rem;
+    background-color: white;
+    margin-top: 2rem;
 }
 .destaque__titulo{
     font-size: 19px;
@@ -16,18 +21,18 @@
     font-weight: 200;
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 240px;
+    width: 210px;
 }
 
 
-@media screen and (max-width: 375px) { 
-    .cartoes {
-        align-items: center;
-        width: 100px;
-        height: 100px;
+@media screen and (mix-width: 375px) { 
+    .cartao {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: auto;
     }
     .principal__descricao {
-        width: 310px;
+        width: 210px;
         text-align: center;
         margin: 0 auto;
     }

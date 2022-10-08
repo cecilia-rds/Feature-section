@@ -1,5 +1,7 @@
 body {
     background-color: hsl(0, 8%, 95%);
+    font-family: 'Poppins';
+    font-size: 15px;
 }
 .cartao {
     width: 340px;
@@ -23,7 +25,11 @@ body {
     padding-right: 1rem;
     width: 210px;
 }
+.destaque__img {
+    margin-top: 1rem;
+    margin-left: 10rem;
 
+}
 
 @media screen and (mix-width: 375px) { 
     .cartao {

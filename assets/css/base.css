@@ -17,16 +17,8 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
     justify-content: center;
+}
 
-}
-.team {
-    grid-column: 2/2;
-    grid-row: 2/1;
-}
-.karma {
-    grid-column: 2/3;
-    grid-row: 2/2;
-}
 .destaque__titulo{
     font-size: 19px;
     font-weight: bold;
@@ -44,7 +36,6 @@ body {
 .destaque__img {
     margin-top: 1rem;
     margin-left: 10rem;
-
 }
 @media screen and (max-width: 1028px) { 
     .cartoes {
@@ -53,6 +44,5 @@ body {
         margin: 0 auto;
         align-items: center;
     }
-
 }
 

@@ -6,10 +6,13 @@ body {
 .cartao {
     width: 340px;
     height: 250px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 0 auto;
     background-color: white;
     margin-top: 2rem;
+}
+.cartoes {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .destaque__titulo{
     font-size: 19px;
@@ -31,15 +34,14 @@ body {
 
 }
 
-@media screen and (mix-width: 720px) { 
+@media screen and (mix-width: 375px) { 
     .container {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
     }
-    .cartao {
+    .cartoes {
         margin: 0 auto;
-        margin-top: 2rem;
         width: auto;
     }
     .principal__descricao {

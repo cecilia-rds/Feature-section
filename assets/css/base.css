@@ -4,15 +4,28 @@ body {
     font-size: 15px;
 }
 .cartao {
-    width: 340px;
-    height: 250px;
-    margin: 0 auto;
+    width: 310px;
+    height: 209px;
     background-color: white;
-    margin-top: 2rem;
+    box-shadow: 1px 3px 7px #b3acac;
 }
 .cartoes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 40% 40%;
+    grid-gap: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    justify-content: center;
+
+}
+.team {
+    grid-column: 2/2;
+    grid-row: 2/1;
+}
+.karma {
+    grid-column: 2/3;
+    grid-row: 2/2;
 }
 .destaque__titulo{
     font-size: 19px;
@@ -33,21 +46,13 @@ body {
     margin-left: 10rem;
 
 }
-
-@media screen and (mix-width: 375px) { 
-    .container {
+@media screen and (max-width: 1028px) { 
+    .cartoes {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        align-items: center;
     }
-    .cartoes {
-        margin: 0 auto;
-        width: auto;
-    }
-    .principal__descricao {
-        width: 210px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    
+
 }
+

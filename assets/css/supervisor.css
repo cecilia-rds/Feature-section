@@ -2,3 +2,9 @@
     border-top: 3px solid rgb(51, 190, 214);
     margin-top: 7rem;
 }
+@media screen and (max-width: 1028px) { 
+    .supervisor{
+        margin: 0%;
+    }
+ 
+}

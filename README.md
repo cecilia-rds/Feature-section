@@ -2,9 +2,10 @@
 <h1 align="center">Four card feature section master</h1>
 
 <p align="center"> 
- Status do projeto: :warning: (Em desenvolvimento)
+ Status do projeto: :heavy_check_mark: (Concluido)
 </p>
 
+![Design preview for the landing page coding challenge](./assets//design/desktop-preview.jpg)
 
 ## 💻 Sobre o projeto
 
@@ -13,7 +14,7 @@ Projeto desenvolvido para prática de HTML e CSS.
 
 ## 🌏 Deploy:
 
-https://cecilia-rds.github.io/feature-section
+https://cecilia-rds.github.io/Feature-section
 
 
 

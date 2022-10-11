@@ -2,11 +2,11 @@
     text-align: center;
     align-items: center;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-size: 20px;
 }
 .principal__titulo {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-weight: 400;
     font-size: 25px;
 }
@@ -17,7 +17,7 @@
     margin: 0 auto;
     font-size: 15px;
     font-weight: 200;
-    margin-bottom: 1.3rem;
+    margin-bottom: 2.3rem;
     width: 500px;
 }
 
@@ -31,6 +31,7 @@
         width: 310px;
         text-align: center;
         margin: 0 auto;
+        padding-bottom: 2rem;
 
     }
     

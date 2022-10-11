@@ -12,7 +12,7 @@ body {
 .cartoes {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 40% 40%;
+    grid-template-rows: 36% 36%;
     grid-gap: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;

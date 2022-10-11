@@ -27,11 +27,16 @@
         flex-direction: column;
         margin: 0 auto;
     }
+    .principal__titulo {
+        padding-bottom: 0rem;
+
+    }
     .principal__descricao {
         width: 310px;
         text-align: center;
         margin: 0 auto;
-        padding-bottom: 2rem;
+        padding-bottom: 2.5rem;
+        padding-top: 1rem;
 
     }
     
